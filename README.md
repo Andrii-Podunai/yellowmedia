@@ -23,26 +23,27 @@ Clone the repository to your local machine:
 ```bash
 git clone https://github.com/yourusername/weather-website-tests.git
 cd weather-website-tests
-
+```
 
 ### 2. Install dependencies:
 Run the following command to install the required dependencies:
 
-bash
+```bash
 npm install
-# or
+```
 
 ### Run Tests
+
 Open Cypress Test Runner
 After installing dependencies, you can open the Cypress Test Runner by running:
 
-bash
+```bash
 npx cypress open
+```
 
 ## Testing Challenges
 
 During the implementation of tests, several challenges were encountered:
 Locator Issues: Locators for elements on the page are difficult to manage due to dynamic classes and complex HTML structures.
-Dynamic HTML: The website uses dynamic class names and complex HTML structures, making it difficult to target elements accurately with typical locators.
 Similar Classes: Some elements share the same class names, which required additional attributes (like data-testid or other unique identifiers) to create unique locators.
 
