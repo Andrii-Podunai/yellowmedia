@@ -7,9 +7,7 @@ This project contains automated tests for the weather website [Sinoptik.ua](http
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Run Tests](#run-tests)
-- [Test Descriptions](#test-descriptions)
 - [Testing Challenges](#testing-challenges)
-- [Tips](#tips)
 
 ## Requirements
 - Node.js (version 14 or higher)
